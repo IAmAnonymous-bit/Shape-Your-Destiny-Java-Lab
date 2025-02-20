@@ -1,12 +1,15 @@
 package org.example;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
 
-class AppTest {
+class AppTest 
+{
   // You can write your unit tests here.
   @Test
-  void appWorks() {
+  void appWorks() 
+  {
     assertEquals(true, true);
   }
 }
